@@ -43,3 +43,30 @@ h1 {
   font-size: 22px;
   margin: 10px;
 }
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 40px
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .login-button,
+  .logout-button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px
+  }
+
+  .logo {
+    height: 50px;
+  }
+}
+
+

@@ -57,3 +57,17 @@
   width: auto;
   margin-right: 15px;
 }
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .rating {
+    font-size: 14px;
+  }
+
+  .tomatillo {
+    height: 15px;
+  }
+}
