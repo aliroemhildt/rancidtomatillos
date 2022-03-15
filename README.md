@@ -2,7 +2,7 @@
 
 ## Deployed Site
 
-View the deployed site [here](https://rancidtomatillos2110.herokuapp.com/)!
+View the deployed site [here](https://rancidtomatillos-ar.herokuapp.com/)!
 
 ## Table of Contents   
 
@@ -18,15 +18,20 @@ View the deployed site [here](https://rancidtomatillos2110.herokuapp.com/)!
 
 ## Abstract
 
-Looking for a new movie to watch? Welcome to Rancid Tomatillos! This is a web app that provides a list of movies, their Rancid Tomatillo rating, and details about the movie's runtime, synopsis, genre, and budget, and revenue. Keep track of your opinion on each movie by logging in and leaving your own rating.
+Looking for a new movie to watch? Welcome to Rancid Tomatillos! This is a web app that provides a list of movies, their Rancid Tomatillo rating, and details about the movie's runtime, synopsis, genre, budget, and revenue. Keep track of your opinion on each movie by logging in and leaving your own rating.
+
+Sample login credentials that can be used: 
+
+username: sam@turing.io
+
+password: 123456
 
 ## Project Goals
 
-- Gain competency with React fundamentals
-- Learn how to test React components & asynchronous JS
+- Gain competency with React fundamentals and asynchronous JavaScript
 - Practice refactoring
-- Create a multi-page UX using Router
-- Build an api using Express and deploy to Heroku
+- Create a multi-page UI using Router
+- Build an API using Express and deploy to Heroku
 - Learn and implement Cypress end to end testing
 
 
@@ -79,7 +84,7 @@ If an error occurs when trying to access the app, the user is shown an error mod
 
 - Add a search bar and filter options to main page
 - Show user's rating on movie card on home page
-- Use a database to store user ratings data so that it persists beyond one session. Our api data is stored in the Express server file, and due to Heroku limitations any new data does not persist after a user's session.
+- Use a database to store user ratings data so that it persists beyond one session. Our API data is stored in the Express server file, and due to Heroku limitations, any new data does not persist after a user's session.
 - Refining the error handling on the login modal (hiding the error message when a user clicks back into the input, do not clear inputs, etc)
 - Add the ability for a user to delete their rating from a movie
 
@@ -95,19 +100,19 @@ To run this app locally:
 6. Visit ```http://localhost:3000/``` in your browser to view the Rancid Tomatillos app!
 7. Open a second terminal tab and run ```npm run cypress``` (while localhost:3000 is still running) to access the cypress testing for this app
 
-## api
+## API
 
-For this project, we access data from two api's.
+For this project, we access data from two API's.
 
-Movie and user data is accessed via the following api, built by staff at Turing.
+Movie and user data is accessed via the following API, built by staff at Turing.
 
-[Movie Data api](https://rancid-tomatillos.herokuapp.com/api/v1)
+[Movie Data API](https://rancid-tomatillos.herokuapp.com/api/v1)
 
-Our team gave ourselves the challenge to learn and implement Express to build an api that stores all user ratings. See both the api and repo below.
+Our team gave ourselves the challenge to learn and implement Express to build an API that stores all user ratings. See both the API and repo below.
 
-[User Ratings api repo](https://github.com/aliroemhildt/user-ratings-api)
+[User Ratings API repo](https://github.com/aliroemhildt/user-ratings-api)
 
-[User Ratings api](https://user-ratings-api.herokuapp.com/api/v1/ratings)
+[User Ratings API](https://user-ratings-api.herokuapp.com/api/v1/ratings)
 
 ## Tech Stack
 
