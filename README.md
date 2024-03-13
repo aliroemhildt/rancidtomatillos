@@ -112,7 +112,7 @@ Our team gave ourselves the challenge to learn and implement Express to build an
 
 [User Ratings API repo](https://github.com/aliroemhildt/user-ratings-api)
 
-[User Ratings API](https://user-ratings-api.herokuapp.com/api/v1/ratings)
+[User Ratings API](https://rancidtomatillos-api.netlify.app/.netlify/functions/api/v1/ratings)
 
 ## Tech Stack
 
