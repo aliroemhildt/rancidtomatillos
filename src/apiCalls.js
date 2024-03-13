@@ -47,12 +47,12 @@ const api = {
   },
 
   getRatings() {
-    return fetch('https://user-ratings-api.herokuapp.com/api/v1/ratings')
+    return fetch('https://rancidtomatillos-api.netlify.app/.netlify/functions/api/v1/ratings')
       .then(response => response.json())
   },
 
   postRating(request) {
-    return fetch('https://user-ratings-api.herokuapp.com/api/v1/ratings', {
+    return fetch('https://rancidtomatillos-api.netlify.app/.netlify/functions/api/v1/ratings', {
       method: 'post',
       body: JSON.stringify(request),
       headers: {
