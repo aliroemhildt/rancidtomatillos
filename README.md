@@ -31,7 +31,7 @@ password: 123456
 - Gain competency with React fundamentals and asynchronous JavaScript
 - Practice refactoring
 - Create a multi-page UI using Router
-- Build an API using Express and deploy to Heroku
+- Build and deploy an API using Express
 - Learn and implement Cypress end to end testing
 
 
