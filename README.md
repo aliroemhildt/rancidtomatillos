@@ -2,7 +2,7 @@
 
 ## Deployed Site
 
-View the deployed site [here](https://rancidtomatillos-ar.herokuapp.com/)!
+View the deployed site [here](https://rancidtomatillos-client.netlify.app/)!
 
 ## Table of Contents   
 
